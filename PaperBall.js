@@ -8,6 +8,7 @@ class Ball{
           
         }
         this.body = Bodies.circle(x,y,20,options)
+        this.image = loadImage("paper.png");
         World.add(world,this.body)
         
         
@@ -15,9 +16,8 @@ class Ball{
 
     display() {
         var pos = this.body.position
-        ellipseMode(RADIUS)
-        fill("DeepPink")
-        ellipse(pos.x,pos.y,20,20)
+        imageMode(CENTER);
+        image(this.image,pos.x,pos.y,70,70)
     }
 
 }

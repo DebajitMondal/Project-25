@@ -6,7 +6,7 @@ class BaseClass{
             'friction':1.0,
             'density':1.0
         }
-        this.body = Bodies.rectangle(x, y, 175, 175, options);
+        this.body = Bodies.rectangle(x, y, 10, 10, options);
         this.width = 175;
         this.height = 175;
         this.image = loadImage("base.png");

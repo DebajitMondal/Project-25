@@ -34,7 +34,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("white");
   ground.display()
   Paddle1.display()
   Paddle2.display()

@@ -19,8 +19,8 @@ class Box{
        rotate(angle)
        rectMode(CENTER)
        strokeWeight(4)
-       stroke("white")
-       fill(255)
+       stroke("black")
+       fill(0)
    
        rect(0,0,this.width,this.height)
        pop()
